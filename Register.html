@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body>
+
+    <a href="HOME.html">Home page</a>
+    <br><br>
+
+    <a href="AbouUS.html">About page</a>
+    <br><br>
+
+    <a href="Product.html">Product page</a>
+    <br><br>
+
+    <a href="Service.html">Service Page</a>
+    <br><br>
+
+    <a href="Register.html">Register Page</a>
+    <br><br>
+
+    <a href="Contact.html">Contact Page</a>
+    <br><br>
+
+    <a href="Login.html">Login Page</a>
+    <br><br>
+
+    <a href="Admin.html">Admin Page</a>
+    <br><br>
+
+    <h2 align="center">Registration Form</h2>
+
+    <form>
+        <table align="center" border="1" cellpadding="10">
+
+            <tr>
+                <td><label for ="Full Name">FullName</label></td>
+                <td><input type="text" name="FullName" id="Full Name" placeholder="Enter your name" required></td>
+            </tr>
+         
+
+            <tr>
+                <td><label for = "Email"> email</label></td>
+                <td><input type="email" name="Email" id = "Email"placeholder="Enter your email"></td>
+            </tr>
+
+            <tr>
+                <td><label for ="Phone Number"> phone</label></td>
+                <td><input type="tel" name="Phone" id="Phone Number"placeholder="Enter phone number"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Gender">gender</label></td>
+                <td>
+                    <input type="radio" name="gender" id="Male"> Male
+                    <input type="radio" name="gender" id="Female"> Female
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for = "Date of Birth"></label></td>
+                <td><input type="date" name="DOB" id="Date of Birth"></td>
+            </tr>
+
+            <tr>
+                <td><label>Address</label></td>
+                <td><textarea name="Address" placeholder="Enter your address"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><label>Select Course</label></td>
+                <td>
+                    <select name="Course">
+                        <option>Select Course</option>
+                        <option>DFS</option>
+                        <option>Java</option>
+                        <option>Python</option>
+                        <option>DA</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>Password</label></td>
+                <td><input type="password" name="Password"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Clear">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+</html>
